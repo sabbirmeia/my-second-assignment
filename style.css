@@ -1,0 +1,59 @@
+/*=============
+ google font 
+ ============== */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* common part start */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    color: #3A3A3A;
+    margin: 0;
+    max-width: 1200px;
+    margin: 0 50px;     
+}
+/* common part end  */
+
+/* firat part of camera start
+============================== */
+.camara-detils{
+    background-color: white;
+    padding-left: 20px;
+    
+}
+.journey{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: end;
+    grid-column-gap: 50px;
+}
+.laft-part h1{
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.laft-part p{
+    line-height: 25px;
+}
+.laft-part button{ 
+    border: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    color: white;
+}
+.right-part img{
+    height: 400px;
+}
+.right-part img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.right-part:hover img{
+    transform: scale(1.2);
+}
+/* first part of camera end
+ ======================== */
+
