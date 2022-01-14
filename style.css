@@ -1,9 +1,10 @@
-/*=============
+/*================
  google font 
- ============== */
+ ================= */
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
- /* common part start */
+ /* common part start
+  ================*/
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
@@ -13,7 +14,7 @@ body{
     margin: 0 50px;     
 }
 /* common part end 
-=================== */
+============================== */
 
 /* part of camera start
 ============================== */
@@ -57,10 +58,10 @@ body{
     transform: scale(1.1);
 }
 /* part of camera end
- ======================== */
+ =========================== */
  /*=========================
   Popular Collection part start 
-  ===================== */
+  ========================== */
  .top{
     text-align: center;
     height: 80px;
@@ -112,7 +113,7 @@ body{
 
  /* =================
  extra part for bonus start
- ================== */
+ ==================== */
  .extra-part{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -143,4 +144,11 @@ body{
 }
 /* ========================
 extra part for bonus end
-======================= */
+=========================== */
+
+/*==========================
+ footer part start
+============================ */
+
+
+     
