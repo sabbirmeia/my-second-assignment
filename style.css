@@ -7,11 +7,11 @@
   ================*/
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
-    color: #3A3A3A;;
+    /* background-color: whitesmoke; */
+    /* color: #3A3A3A;; */
     margin: 0;
-    max-width: 1200px;
-    margin: 0 50px;     
+    /* max-width: 1200px;
+    margin: 0 50px;      */
 }
 /* common part end 
 ============================== */
@@ -20,7 +20,7 @@ body{
 ============================== */
 .products-detils{
     background-color: white;
-    padding-left: 20px;
+    padding-left: 35px;
     margin-bottom: 20px;
     
 }
@@ -45,6 +45,9 @@ body{
     padding: 10px 24px;
     border-radius: 41px;
     font-size: 16px;
+}
+.laft-part button a{
+    text-decoration: none;
     color: white;
 }
 .right-part img{
@@ -127,7 +130,7 @@ body{
     border-radius: 5px;
  }
  .text h2{
-    color: #0A0826;;
+    color: #0A0826;
 }
  .text p{
     margin-top: 0;
@@ -140,6 +143,10 @@ body{
     padding: 10px 24px;
     border-radius: 2px;
     font-size: 16px;
+    margin-bottom: 60px;
+}
+.text button a{
+    text-decoration: none;
     color: white;
 }
 /* ========================
@@ -150,5 +157,45 @@ extra part for bonus end
  footer part start
 ============================ */
 
+footer{
+    background-color: #0A0826;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 250px;
+    justify-content: center;
+}
+.detils{
+    text-align: center;
+}
+.detils h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.icon a{
+    color: #FF7F50;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    background-color: rgb(255, 253, 248);
+}
+.icon a:hover{
+    opacity: 1.5;
+}
+
+/*=====================
+ footer part end 
+======================= */
 
      
