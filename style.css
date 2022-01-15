@@ -199,3 +199,17 @@ footer{
 ======================= */
 
      
+     
+@media only screen and (max-width :688px){
+    .journey{
+      grid-template-columns: none;
+    }
+    .item{
+        grid-template-columns: none;
+    }
+    .extra-part{
+        grid-template-columns: none;
+    }
+}
+
+     
